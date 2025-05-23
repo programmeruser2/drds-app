@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "drds-app",
+    "slug": "snack-a081c3a1-1c88-4a62-81b4-7de44046df8e",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.snacka081c3a11c884a6281b47de44046df8e"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.snacka081c3a11c884a6281b47de44046df8e"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "onnxruntime-react-native"
+    ]
+  }
+}

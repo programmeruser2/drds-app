@@ -1,0 +1,33 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.27",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "openmeteo": "*",
+    "expo-location": "~18.0.5",
+    "expo-file-system": "~18.0.7",
+    "expo-localization": "~16.0.1",
+    "@expo/vector-icons": "^14.0.2",
+    "react-native-paper": "4.9.2",
+    "onnxruntime-react-native": "*",
+    "react-native-device-info": "*",
+    "react-native-geolocation-service": "*",
+    "@react-native-community/geolocation": "*",
+    "expo-dev-client": "~5.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "name": "drds-app",
+  "version": "1.0.0"
+}
